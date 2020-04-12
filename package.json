@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "twemoji-worker",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "build/index.js",
+  "scripts": {
+    "publish": "rollup -c && wrangler publish",
+    "preview": "rollup -c && wrangler preview",
+    "dev": "rollup -c --watch",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Luis Confraria <lconfraria@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^1.18.2",
+    "rollup": "^2.6.0",
+    "twemoji": "^12.1.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^7.1.2"
+  }
+}

@@ -1,0 +1,6 @@
+name = "twemoji"
+type = "javascript"
+account_id = "a3d45a0c17a797d8c53e191b283fa32a"
+workers_dev = true
+route = ""
+zone_id = ""
